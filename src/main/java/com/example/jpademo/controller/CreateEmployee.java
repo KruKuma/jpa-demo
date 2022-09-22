@@ -1,10 +1,12 @@
 package com.example.jpademo.controller;
 
+
+
+import com.example.jpademo.model.Employee;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-
-import com.example.jpademo.model.Employee;
 
 public class CreateEmployee {
     
