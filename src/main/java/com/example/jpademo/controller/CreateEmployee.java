@@ -1,4 +1,4 @@
-package com.example.jpademo;
+package com.example.jpademo.controller;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,11 +6,11 @@ import javax.persistence.Persistence;
 
 import com.example.jpademo.model.Employee;
 
-public class Main {
-
+public class CreateEmployee {
+    
     public static void main(String[] args) {
         
-        EntityManagerFactory emfactory = Persistence.createEntityManagerFactory("Eclipselink_JPA");
+        EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "Eclipselink_JPA" );
         
         EntityManager entityManager = emfactory.createEntityManager( );
         entityManager.getTransaction( ).begin( );
@@ -28,5 +28,7 @@ public class Main {
         emfactory.close( );
 
     }
-
+    
+    
+    
 }
