@@ -1,7 +1,5 @@
 package com.example.jpademo.controller;
 
-
-
 import com.example.jpademo.model.Employee;
 
 import javax.persistence.EntityManager;
