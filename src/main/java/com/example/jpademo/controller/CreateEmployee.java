@@ -16,10 +16,10 @@ public class CreateEmployee {
         entityManager.getTransaction( ).begin( );
         
         Employee employee = new Employee( ); 
-        employee.setEid( 1201 );
-        employee.setEname( "Gopal" );
-        employee.setSalary( 40000 );
-        employee.setDeg( "Technical Manager" );
+        employee.setEid(1201);
+        employee.setEname("Gopal");
+        employee.setSalary(40000);
+        employee.setDeg("Technical Manager");
         
         entityManager.persist( employee );
         entityManager.getTransaction( ).commit( );
