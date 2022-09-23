@@ -10,7 +10,7 @@ public class FindEmployee {
 
     public static void main(String[] args) {
         
-EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "Eclipselink_JPA" );
+        EntityManagerFactory emfactory = Persistence.createEntityManagerFactory( "Eclipselink_JPA" );
         
         EntityManager entityManager = emfactory.createEntityManager( );
         entityManager.getTransaction( ).begin( );
